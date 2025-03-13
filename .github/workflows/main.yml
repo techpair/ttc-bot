@@ -1,0 +1,17 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Trading Bot CI
+
+# Controls when the workflow will run
+on: [push]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  test-strategies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run backtests
+        run: python backtesting/backtest_engine.py
