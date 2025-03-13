@@ -10,3 +10,24 @@ Features
 ✅ Core Trading Techniques (Breakout Trading, Trend Following, Range Trading)
 ✅ Advanced Trading Techniques (Volume-Based Strategies)
 ✅ Backtesting Engine (Simulating strategies on historical data)
+
+Usage Instructions
+
+Clone the repository:
+git clone https://github.com/yourusername/trading-code-bot.git  
+cd trading-code-bot  
+
+Install dependencies:
+pip install -r requirements.txt  
+
+Run backtesting:
+python backtesting/backtest_engine.py  
+
+Disclaimer
+This repository is for hobbyist use and educational purposes only. It is NOT intended for live trading without proper risk management.
+No guarantees of accuracy, profitability, or reliability.
+No financial advice—this is purely a coding exercise.
+Trading is risky. Use this code at your own discretion and test thoroughly before any real-world implementation.
+
+Contributing
+If you want to contribute, feel free to open issues or submit pull requests.
