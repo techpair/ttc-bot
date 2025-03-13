@@ -14,7 +14,7 @@ Features
 Usage Instructions
 
 Clone the repository:
-git clone https://github.com/yourusername/trading-code-bot.git  
+git clone https://github.com/yourusername/ttc-bot.git  
 cd trading-code-bot  
 
 Install dependencies:
